@@ -49,10 +49,9 @@ end
 
 def monopoly_with_fourth_tier
 	monopoly = {
-  	  :railroads =>
-      	{
-      	  :pieces => 4
-      	}
+  	  :railroads => {
+                  	 :pieces => 4
+                  	},
       :names => {
         :reading_railroad =>
           {},
@@ -62,7 +61,7 @@ def monopoly_with_fourth_tier
           {},
         :shortline =>
           {}
-      }
+      },
       :rent_in_dollars => {
         :one_piece_owned => 25,
         :two_pieces_owned => 50,
@@ -70,5 +69,5 @@ def monopoly_with_fourth_tier
         :four_pieces_owned => 200
       }
     }
-  }
+  
 end
