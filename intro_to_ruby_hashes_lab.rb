@@ -56,18 +56,14 @@ def monopoly_with_fourth_tier
       	  :pieces => 4
       	}
       :names => {
-        :reading_railroad=>
-          {
-          },
-        :pennsylvania_railroad=>
-          {
-          },
-        :b_and_o_railroad=>
-          {
-          },
-        :shortline=>
-          {
-          }
+        :reading_railroad =>
+          {},
+        :pennsylvania_railroad =>
+          {},
+        :b_and_o_railroad =>
+          {},
+        :shortline =>
+          {}
       }
       :rent_in_dollars => {
         :one_piece_owned => 25,
@@ -77,5 +73,4 @@ def monopoly_with_fourth_tier
       }
     }
   }
-
 end
